@@ -26,6 +26,16 @@
 # 4. Write a Python program which accepts the users first and last name and print them in reverse 
 # order with a space between them.
 
+name = input('Whats your name?')
+lastName = input('Whats your last name?')
+
+def sayHello (name, lastName):
+  reverseName = (name + lastName)[::-1]
+  return 'hello ' + reverseName
+
+print(sayHello(name, lastName))
+
+
 # 5. Write a Python program which accepts a sequence of comma-separated numbers from 
 # user and generate a list and a tuple with those numbers. Go to the editor
 # Sample data : 3, 5, 7, 23
